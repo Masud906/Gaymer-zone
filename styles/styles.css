@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+header {
+    background-color: #FFF;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background-color: #ff42a5;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.spn1 {
+    color: #181818;
+    font-size: 45;
+    font-weight: 800;
+
+    /* .spn { */
+    color: blueviolet;
+}
+
+.header1 {
+    display: flex;
+}
+
+.header-description {
+    background-image: url('../images/Group\ 14.png');
+    width: 901px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.header2 {
+    display: flex;
+}
+
+.funny-cotainer {
+    display: flex;
+}
+
+/* featuresssssssssssss */
+.feturs {
+    display: flex;
+}
+
+.section-title1 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    align-items: center;
+    margin: 0;
+}
+
+.section-title2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feturep {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+.feture-img2 {
+    position: relative;
+
+}
+
+.career {
+    display: flex;
+    background-color: #ff42a5;
+    width: 1920px;
+    height: 821px;
+    flex-shrink: 0;
+}
+
+.ul {
+    display: flex;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+}
+
+.futter-item {
+    align-items: center;
+}
